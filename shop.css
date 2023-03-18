@@ -1,0 +1,45 @@
+.navbar{
+    background: rgba(224,224,255,0.8) ;
+}
+.words{
+    height: 40vh;
+    background:url(image/shop/b1.jpg);
+    background-size: cover;
+    background-position: 100%;
+}
+.word{font-size: 55px;}
+.line1{
+    height: 2px !important;
+}
+.text-color{
+    color: rgb(6, 119, 113) !important;
+}
+.li:hover{
+   color: rgb(6, 119, 113) !important;
+   border-bottom: solid 2px rgb(6, 119, 113);
+   width: 60%;
+   height: 37px;
+   transition: 0.4s ease-in-out;
+}
+.butn{background: rgb(6, 119, 113);}
+.btn-toolbar{height: 5vh;}
+.section7{    
+    height: 20vh;
+    background: url(image/b14.png);
+    background-repeat: no-repeat; 
+    background-position: 15% 25%;
+    }
+.Sign{
+   height: 18vh;
+   background-color: rgb(7, 7, 60);
+
+}
+.btn-color{background-color: rgb(6, 119, 113) !important;
+    color: white !important;}
+@media screen and (max-width:992px) {
+    .modil{justify-content: center !important;}
+    .section7{display: block !important;}
+    .sec{height: 15vh;}
+    .Sign{height: 25vh;}
+    .input-group{width: 100% !important;}
+}

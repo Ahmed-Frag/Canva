@@ -1,0 +1,92 @@
+
+.navbar{
+    background: rgba(224,224,255,0.8) ;
+}
+.main{
+
+    height: 89vh;
+    background: url(image/hero4.png);
+    background-position: 100%;
+    background-size: cover;
+}
+.line1{
+    height: 2px !important;
+}
+.btn-outline-light:hover{
+    background-color:rgb(6, 119, 113) ;
+    transition:0.3s ease-in-out ;
+}
+.btn-outline-color:hover{
+    background-color: rgb(6, 119, 113) !important ;
+        color: white !important;
+        transition: 0.3s ease-in-out;
+}
+.btn-color{background-color: rgb(6, 119, 113) !important;
+     color: white !important;}
+.text-color{color: rgb(6, 119, 113) !important;}
+.li:hover{
+    color: rgb(6, 119, 113) !important;
+    border-bottom: solid 2px rgb(6, 119, 113);
+    width: 60%;
+    height: 37px;
+    transition: 0.4s ease-in-out;
+}
+.word1{
+font-size: 50px;
+}
+.section4{
+    height: 35vh;
+    background-image: url(image/b2.jpg);
+}
+.ps-4{  
+      width: 49% !important;
+}
+.model1{
+    height: 50vh;
+    background: url(image/b17.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.model2{
+    height: 50vh;
+    background: url(image/b10.jpg);
+    background-size: cover;
+    background-position: 50%;
+}.model3{
+    height: 30vh;
+    background: url(image/b7.jpg);
+    background-size: cover;
+    background-position: 50%;
+}.model4{
+    height: 30vh;
+    background: url(image/b4.jpg);
+    background-size: cover;
+    background-position: 50%;
+}.model5{
+    height: 30vh;
+    background: url(image/b18.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.section7{    
+     height: 20vh;
+     background: url(image/b14.png);
+     background-repeat: no-repeat; 
+     background-position: 15% 25%;
+     }
+.Sign{
+    height: 18vh;
+    background-color: rgb(7, 7, 60);
+
+}
+@media screen and (max-width:992px) {
+   .section7{display: block !important;}
+   .sec{height: 15vh;}
+   .Sign{height: 25vh;}
+   .input-group{width: 100% !important;}
+   .section2{padding: 0%;}
+   .modil{justify-content: center !important;}
+   .ofer{flex-direction: column; justify-content: center !important;}
+   .ofr{width: 100% !important;}
+    
+}
